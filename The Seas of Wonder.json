@@ -42,6 +42,7 @@
   {
     "id": "sowcolombe",
     "name": "La Colombe",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/colombe.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "En début de partie, vous apprenez le rôle d'un sbire en jeu. Vous pouvez demander au conteur de remplacer le rôle de ce sbire par un autre.",
@@ -56,6 +57,7 @@
   {
     "id": "sowcapitaine",
     "name": "La Capitaine",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/capitaine.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "En début de partie, vous apprenez deux jouuers qui forment votre équipage. La première fois que vous nominez quelqu'un, votre équipage vote automatiquement.",
@@ -72,6 +74,7 @@
   {
     "id": "sowmessager",
     "name": "Le Messager",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/messager.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "En début de partie, le rôle d'un joueur est montré à un autre joueur. Vous apprenez qui sont ces deux personnes, sans prendre connaissance du rôle.",
@@ -87,6 +90,7 @@
   {
     "id": "sowexplorateur",
     "name": "L'Explorateur",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/explorateur.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "En début de partie, vous apprenez si le démon se trouve dans votre moitié de jeu.",
@@ -99,6 +103,7 @@
   {
     "id": "sowcartographe",
     "name": "Le Cartographe",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/cartographe.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "En début de partie, vous apprenez un chiffre, et un rôle se trouvant à cette distance de vous.",
@@ -111,6 +116,7 @@
   {
     "id": "sowastronome",
     "name": "L'Astronome",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/astronome.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "Une fois par partie, vous pouvez désigner 2 joueurs. Vous savez si ces deux joueurs ont le même alignement. Vous ne pouvez pas vous désigner vous-même.",
@@ -127,6 +133,7 @@
   {
     "id": "sowesprit",
     "name": "L'Esprit",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/esprit.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "Une fois par partie, pendant la nuit, vous pouvez récupérer le rôle d’un joueur mort. Ce joueur garde son rôle, mais devient ivre. Vous gardez votre alignement, et êtes toujours perçu comme l’Esprit.",
@@ -142,6 +149,7 @@
   {
     "id": "sowcanonnier",
     "name": "Le Canonnier",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/cannonier.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": " Une fois par partie, pendant la phase de nomination, vous pouvez tuer vos deux voisins. Si aucun n’est maléfique, le Mal l’emporte. Si aucun n’est bon, le Bien l’emporte. Le jour prend immédiatement fin.",
@@ -154,6 +162,7 @@
   {
     "id": "sowcondamne",
     "name": "Le Condamné",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/condamne.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "Si vous êtes mort éxécuté durant le jour, ou mort tué durant la nuit, vous vous réveillez et apprenez le rôle d'un autre joueur mort.",
@@ -169,6 +178,7 @@
   {
     "id": "sowcorsaire",
     "name": "La Corsaire",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/corsaire.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "La première fois que vous nominez un joueur, s'il est bon, ni vous ni lui ne pouvez mourir d'éxécution aujourd'hui.",
@@ -184,6 +194,7 @@
   {
     "id": "sownecromancien",
     "name": "Le Nécromancien",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/necromancien.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "Chaque nuit*, désignez un joueur. S'il est mort, il est considéré comme vivant jusqu'au lever du jour. S'il est vivant, s'il doit mourir, vous retardez sa mort jusqu'au lever du jour.",
@@ -198,6 +209,7 @@
   {
     "id": "sowclandestine",
     "name": "La Clandestine",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/clandestine.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "Chaque nuit*, vous pouvez si vous le souhaitez vous cacher chez un autre joueur. Si cette personne meurt, vous mourez à sa place. Si vous êtes visée et que vous vous êtes cachée, vous ne mourez pas.",
@@ -213,6 +225,7 @@
   {
     "id": "sowchasseurdeprimes",
     "name": "Le Chasseur de primes",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/chasseur.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": "Si vous avez participé à l'éxécution d'un joueur durant la journée, vous vous réveillez et apprenez le rôle d'un des votants.",
@@ -227,6 +240,7 @@
   {
     "id": "sowdiplomate",
     "name": "Le Diplomate",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/diplomate.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
     "ability": " Lorsque vous êtes nominé, vous pouvez désigner un autre joueur vivant. Si vous êtes exécuté, il est exécuté également.",
@@ -239,6 +253,7 @@
   {
     "id": "sowmachiniste",
     "name": "La Machiniste",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/machiniste.png?raw=true",
     "team": "outsider",
     "edition": "Gabou & Gagou",
     "ability": "Lorsque vous mourez, aucun vote ne comptera au prochain tour.",
@@ -253,6 +268,7 @@
   {
     "id": "sowdueliste",
     "name": "Le Duelliste",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/duelliste.png?raw=true",
     "team": "outsider",
     "edition": "Gabou & Gagou",
     "ability": "Si, pendant le jour, vous ne votez pour personne, vous mourez pendant la nuit.",
@@ -269,6 +285,7 @@
   {
     "id": "sowtaverniere",
     "name": "La Tavernière",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/taverniere.png?raw=true",
     "team": "outsider",
     "edition": "Gabou & Gagou",
     "ability": "Tant que vous êtes en vie, l'un de vos deux voisins villageois est ivre. Le joueur ivre peut changer chaque nuit.",
@@ -283,6 +300,7 @@
   {
     "id": "sowmousse",
     "name": "Le Mousse",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/mousse.png?raw=true",
     "team": "outsider",
     "edition": "Gabou & Gagou",
     "ability": "Si un joueur est éxécuté, vous ne pouvez pas voter au prochain jour.",
@@ -292,6 +310,7 @@
   {
     "id": "sowmutine",
     "name": "La Mutine",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/mutine.png?raw=true",
     "team": "minion",
     "edition": "Gabou & Gagou",
     "ability": "Une fois par partie, vous pouvez tuer le démon, vous devenez alors le démon..",
@@ -306,6 +325,7 @@
   {
     "id": "sowsirene",
     "name": "La Sirène",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/sirene.png?raw=true",
     "team": "minion",
     "edition": "Gabou & Gagou",
     "ability": "Si vous mourez durant la nuit, vous désignez un joueur. Il devient un sbire. Vous apparaissez comme un autre sbire.",
@@ -322,6 +342,7 @@
   {
     "id": "sowtriton",
     "name": "Le Triton",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/triton.png?raw=true",
     "team": "minion",
     "edition": "Gabou & Gagou",
     "ability": "Chaque nuit, vous désignez deux joueurs. Si l'un est exécuté, l'autre aussi.",
@@ -339,6 +360,7 @@
   {
     "id": "sowbrume",
     "name": "La Brume",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/brume.png?raw=true",
     "team": "minion",
     "edition": "Gabou & Gagou",
     "ability": "En début de partie, vous désignez un joueur bon et un joueur mauvais rendus indétectables : toute information qui devrait être révélée sur chaque joueur joueur pourrait être erronée. Si vous mourez, le village apprend l'existence des deux joueurs embrumés, qui ne le sont plus.",
@@ -354,6 +376,7 @@
   {
     "id": "sowmeduse",
     "name": "Médusa",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/medusa.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
     "ability": "Chaque nuit*, vous désignez un joueur à tuer. Lorsqu'un joueur vous nomine, il devient ivre pour le reste de la partie.",
@@ -370,6 +393,7 @@
   {
     "id": "sowkraken",
     "name": "Le Kraken",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/kraken.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
     "ability": "Chaque nuit*, vous désignez un joueur à tuer. Le vote des voisins de ce joueur ne comptera pas au prochain tour.",
@@ -387,6 +411,7 @@
   {
     "id": "sowroimaudit",
     "name": "Le Roi Maudit",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/roi.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
     "ability": "Chaque nuit*, vous désignez un joueur à tuer, puis, un joueur à maudire. Si ce dernier nomine pendant le jour, il est immédiatement éxécuté. Aucun joueur ne peut être maudit s'il reste 5 joueurs ou moins.",
@@ -403,6 +428,7 @@
   {
     "id": "sowmobydick",
     "name": "Moby Dick",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/mbdick.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
     "ability": "Chaque nuit*, vous désignez un joueur à tuer. S'il reste autant de Mauvais que de Bons, le Mal l'emporte.",
