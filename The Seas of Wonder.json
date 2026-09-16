@@ -1,0 +1,420 @@
+[
+  {
+    "id": "_meta",
+    "name": "The Seas of Wonder",
+    "author": "Gabou & Gagou",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "sowbrume",
+      "sowcolombe",
+      "sowmessager",
+      "sowexplorateur",
+      "sowcartographe",
+      "sowastronome",
+      "sowcapitaine",
+      "sowtriton",
+      "sowtaverniere",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "sownecromancien",
+      "sowesprit",
+      "sowclandestine",
+      "sowmutine",
+      "sowmeduse",
+      "sowkraken",
+      "sowroimaudit",
+      "sowmobydick",
+      "sowsirene",
+      "sowcondamne",
+      "sowastronome",
+      "sowchasseurdeprimes",
+      "sowtriton",
+      "sowduelliste",
+      "sowtraitre",
+      "sowtaverniere",
+      "dawn"
+    ]
+  },
+  {
+    "id": "sowcolombe",
+    "name": "La Colombe",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "En début de partie, vous apprenez le rôle d'un sbire en jeu. Vous pouvez demander au conteur de remplacer le rôle de ce sbire par un autre.",
+    "firstNightReminder": "Montrez à la Colombe le rôle d'un sbire en jeu. La colombe indique si elle souhaite remplacer ce sbire par un autre sbire disponible. Informez ensuite secrètement le joueur concerné de son nouveau rôle.",
+    "reminders": [
+      "Sbire remplacé"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 2
+  },
+  {
+    "id": "sowcapitaine",
+    "name": "La Capitaine",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "En début de partie, vous apprenez deux jouuers qui forment votre équipage. La première fois que vous nominez quelqu'un, votre équipage vote automatiquement.",
+    "firstNightReminder": "Choisissez deux joueurs, et informez-en la Capitaine. Placez les marqueurs Équipage.",
+    "reminders": [
+      "Équipage",
+      "Équipage",
+      "Utilisé"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 8
+  },
+  {
+    "id": "sowmessager",
+    "name": "Le Messager",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "En début de partie, le rôle d'un joueur est montré à un autre joueur. Vous apprenez qui sont ces deux personnes, sans prendre connaissance du rôle.",
+    "firstNightReminder": "Vous choisissez un joueur (source), puis un autre (destinataire). Informez le messager de ces deux personnes dans l'ordre de votre choix, puis, montrez le rôle du premier au second, sans que le Messager ne le voie.",
+    "reminders": [
+      "Source",
+      "Destinataire"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 4
+  },
+  {
+    "id": "sowexplorateur",
+    "name": "L'Explorateur",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "En début de partie, vous apprenez si le démon se trouve dans votre moitié de jeu.",
+    "firstNightReminder": "Indiquez à l'Explorateur, par oui ou non, si le démon se trouve dans sa moitié du cercle.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 5
+  },
+  {
+    "id": "sowcartographe",
+    "name": "Le Cartographe",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "En début de partie, vous apprenez un chiffre, et un rôle se trouvant à cette distance de vous.",
+    "firstNightReminder": "Choisissez un chiffre. Vérifiez qu'il y a 2 personnes à cette distance du cartographe, puis montrez-lui le chiffre, ainsi que le rôle d'un des 2 joueurs.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 6
+  },
+  {
+    "id": "sowastronome",
+    "name": "L'Astronome",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Une fois par partie, vous pouvez désigner 2 joueurs. Vous savez si ces deux joueurs ont le même alignement. Vous ne pouvez pas vous désigner vous-même.",
+    "firstNightReminder": "Si l'Astronome désigne 2 joueurs (autres que lui-même), indiquez-lui par oui ou non s'ils ont le même alignement. Placez le marqueur Pouvoir utilisé.",
+    "otherNightReminder": "Si l'Astronome n'a pas encore utilisé son pouvoir et désigne 2 joueurs (autres que lui-même), indiquez-lui par oui ou non s'ils ont le même alignement. Placez le marqueur Pouvoir utilisé.",
+    "reminders": [
+      "Pouvoir utilisé"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 7,
+    "otherNight": 8
+  },
+  {
+    "id": "sowesprit",
+    "name": "L'Esprit",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Une fois par partie, pendant la nuit, vous pouvez récupérer le rôle d’un joueur mort. Ce joueur garde son rôle, mais devient ivre. Vous gardez votre alignement, et êtes toujours perçu comme l’Esprit.",
+    "otherNightReminder": "Si l'Esprit n'a pas encore utilisé son pouvoir, il peut désigner un joueur mort. Il prend ce rôle et conserve son alignement. Mettez à jour le grimoire et informez-le de son nouveau rôle. Le joueur possédé devient ivre.",
+    "reminders": [
+      "Pouvoir utilisé",
+      "Ivre"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 2
+  },
+  {
+    "id": "sowcanonnier",
+    "name": "Le Canonnier",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": " Une fois par partie, pendant la phase de nomination, vous pouvez tuer vos deux voisins. Si aucun n’est maléfique, le Mal l’emporte. Si aucun n’est bon, le Bien l’emporte. Le jour prend immédiatement fin.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "sowcondamne",
+    "name": "Le Condamné",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Si vous êtes mort éxécuté durant le jour, ou mort tué durant la nuit, vous vous réveillez et apprenez le rôle d'un autre joueur mort.",
+    "otherNightReminder": "Si le condamnée est mort éxécuté la journée, réveillez le. Il désigne un joueur mort dont vous lui apprenez le rôle.",
+    "reminders": [
+      "Tué"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "sowcorsaire",
+    "name": "La Corsaire",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "La première fois que vous nominez un joueur, s'il est bon, ni vous ni lui ne pouvez mourir d'éxécution aujourd'hui.",
+    "reminders": [
+      "Pouvoir utilisé",
+      "Ne meurt pas"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "sownecromancien",
+    "name": "Le Nécromancien",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Chaque nuit*, désignez un joueur. S'il est mort, il est considéré comme vivant jusqu'au lever du jour. S'il est vivant, s'il doit mourir, vous retardez sa mort jusqu'au lever du jour.",
+    "otherNightReminder": "Le Nécromancien peut désigner un joueur. Ce joueur est considéré comme vivant jusqu'au lever du jour. S'il doit mourir, retardez sa mort, s'il est mort, jouez son rôle comme s'il était vivant.",
+    "reminders": [
+      "Récussité"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 6
+  },
+  {
+    "id": "sowclandestine",
+    "name": "La Clandestine",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Chaque nuit*, vous pouvez si vous le souhaitez vous cacher chez un autre joueur. Si cette personne meurt, vous mourez à sa place. Si vous êtes visée et que vous vous êtes cachée, vous ne mourez pas.",
+    "firstNightReminder": "La Clandestine peut désigner un joueur. Placez le marqueur Cachée chez ce joueur.",
+    "otherNightReminder": "La Clandestine peut désigner un joueur. Placez le marqueur Cachée chez ce joueur. Si ce joueur devait mourir cette nuit, la Clandestine meurt à sa place ; si la Clandestine est visée, elle ne meurt pas.",
+    "reminders": [
+      "Cachée"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 3
+  },
+  {
+    "id": "sowchasseurdeprimes",
+    "name": "Le Chasseur de primes",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Si vous avez participé à l'éxécution d'un joueur durant la journée, vous vous réveillez et apprenez le rôle d'un des votants.",
+    "otherNightReminder": "Si le Chasseur de primes a voté lors d'une exécution aujourd'hui, montrez-lui le rôle de l'un des joueurs ayant voté.",
+    "reminders": [
+      "A voté"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 9
+  },
+  {
+    "id": "sowdiplomate",
+    "name": "Le Diplomate",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": " Lorsque vous êtes nominé, vous pouvez désigner un autre joueur vivant. Si vous êtes exécuté, il est exécuté également.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "sowmachiniste",
+    "name": "La Machiniste",
+    "team": "outsider",
+    "edition": "Gabou & Gagou",
+    "ability": "Lorsque vous mourez, aucun vote ne comptera au prochain tour.",
+    "reminders": [
+      "Aucun vote"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "sowdueliste",
+    "name": "Le Duelliste",
+    "team": "outsider",
+    "edition": "Gabou & Gagou",
+    "ability": "Si, pendant le jour, vous ne votez pour personne, vous mourez pendant la nuit.",
+    "otherNightReminder": "Si le Duelliste n'a voté pour personne aujourd'hui, il meurt.",
+    "reminders": [
+      "A voté",
+      "Mort"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 19
+  },
+  {
+    "id": "sowtaverniere",
+    "name": "La Tavernière",
+    "team": "outsider",
+    "edition": "Gabou & Gagou",
+    "ability": "Tant que vous êtes en vie, l'un de vos deux voisins villageois est ivre. Le joueur ivre peut changer chaque nuit.",
+    "firstNightReminder": "Choisissez l'un des deux voisins villageois de la Tavernière : il est ivre jusqu'au lever du jour suivant. Placez le marqueur Ivre.",
+    "otherNightReminder": "Enlevez le marqueur ivre placé précédemment. Choisissez l'un des deux voisins villageois de la Tavernière : il est ivre jusqu'au lever du jour suivant. Placez le marqueur Ivre.",
+    "reminders": [
+      "Ivre"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "sowmousse",
+    "name": "Le Mousse",
+    "team": "outsider",
+    "edition": "Gabou & Gagou",
+    "ability": "Si un joueur est éxécuté, vous ne pouvez pas voter au prochain jour.",
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "sowmutine",
+    "name": "La Mutine",
+    "team": "minion",
+    "edition": "Gabou & Gagou",
+    "ability": "Une fois par partie, vous pouvez tuer le démon, vous devenez alors le démon..",
+    "otherNightReminder": "Si la Mutine n'a pas encore utilisé son pouvoir, elle peut choisir de tuer le démon. Si elle le fait, le démon meurt et la Mutine devient ce démon : informez-la de son nouveau rôle. ",
+    "reminders": [
+      "Pouvoir utilisé"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 4
+  },
+  {
+    "id": "sowsirene",
+    "name": "La Sirène",
+    "team": "minion",
+    "edition": "Gabou & Gagou",
+    "ability": "Si vous mourez durant la nuit, vous désignez un joueur. Il devient un sbire. Vous apparaissez comme un autre sbire.",
+    "firstNightReminder": "La Sirène apprend quel sbire elle semble être. Montrez-lui ce rôle (elle apparaît comme ce sbire pour toute information révélée).",
+    "otherNightReminder": "Si la Sirène est morte cette nuit, elle désigne un joueur : ce joueur devient un sbire. Informez-le de son nouvel alignement.",
+    "reminders": [
+      "Devient sbire",
+      "Pouvoir utilisé"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "otherNight": 0
+  },
+  {
+    "id": "sowtriton",
+    "name": "Le Triton",
+    "team": "minion",
+    "edition": "Gabou & Gagou",
+    "ability": "Chaque nuit, vous désignez deux joueurs. Si l'un est exécuté, l'autre aussi.",
+    "firstNightReminder": "Le Triton désigne 2 joueurs. Placez les marqueurs Lié : si l'un est exécuté aujourd'hui, l'autre aussi.",
+    "otherNightReminder": "Le Triton désigne 2 joueurs. Placez les marqueurs Lié : si l'un est exécuté aujourd'hui, l'autre aussi.",
+    "reminders": [
+      "Lié",
+      "Lié"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 9,
+    "otherNight": 10
+  },
+  {
+    "id": "sowbrume",
+    "name": "La Brume",
+    "team": "minion",
+    "edition": "Gabou & Gagou",
+    "ability": "En début de partie, vous désignez un joueur bon et un joueur mauvais rendus indétectables : toute information qui devrait être révélée sur chaque joueur joueur pourrait être erronée. Si vous mourez, le village apprend l'existence des deux joueurs embrumés, qui ne le sont plus.",
+    "firstNightReminder": "la Brume désigne un joueur bon et un joueur mauvais. Placez les marqueurs Indétectable : toute information révélée sur ces joueurs ou leur rôle peut être erronée.",
+    "reminders": [
+      "Indétectable",
+      "Indétectable"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "firstNight": 0
+  },
+  {
+    "id": "sowmeduse",
+    "name": "Médusa",
+    "team": "demon",
+    "edition": "Gabou & Gagou",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer. Lorsqu'un joueur vous nomine, il devient ivre pour le reste de la partie.",
+    "firstNightReminder": "Montrez à Médusa les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
+    "otherNightReminder": "Médusa désigne un joueur : ce joueur meurt.",
+    "reminders": [
+      "Mort",
+      "Ivre"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 5
+  },
+  {
+    "id": "sowkraken",
+    "name": "Le Kraken",
+    "team": "demon",
+    "edition": "Gabou & Gagou",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer. Le vote des voisins de ce joueur ne comptera pas au prochain tour.",
+    "firstNightReminder": "Montrez au Kraken les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
+    "otherNightReminder": "Le Kraken désigne un joueur : ce joueur meurt. Le vote de ses deux voisins ne comptera pas le jour suivant. Placez les marqueurs Incapacité.",
+    "reminders": [
+      "Mort",
+      "Incapacité",
+      "Incapacité"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 5
+  },
+  {
+    "id": "sowroimaudit",
+    "name": "Le Roi Maudit",
+    "team": "demon",
+    "edition": "Gabou & Gagou",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer, puis, un joueur à maudire. Si ce dernier nomine pendant le jour, il est immédiatement éxécuté. Aucun joueur ne peut être maudit s'il reste 5 joueurs ou moins.",
+    "firstNightReminder": "Montrez au Roi Maudit les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
+    "otherNightReminder": "Le Roi Maudit désigne un joueur : ce joueur meurt. Puis il désigne un autre joueur : placez le marqueur Maudit. Si ce joueur nomine aujourd'hui, il est éxécuté.",
+    "reminders": [
+      "Mort",
+      "Surveillé"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 5
+  },
+  {
+    "id": "sowmobydick",
+    "name": "Moby Dick",
+    "team": "demon",
+    "edition": "Gabou & Gagou",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer. S'il reste autant de Mauvais que de Bons, le Mal l'emporte.",
+    "firstNightReminder": "Montrez à Moby Dick les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
+    "otherNightReminder": "Moby Dick désigne un joueur : ce joueur meurt. S'il reste autant de Mauvais que de bons, le Mal l'emporte au lever du jour",
+    "reminders": [
+      "Mort",
+      "Supériorité"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 5
+  },
+  "bootlegger"
+]
