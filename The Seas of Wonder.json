@@ -444,5 +444,13 @@
     "setup": false,
     "otherNight": 5
   },
+  {
+    "id": "sowevernight",
+    "name": "The Evernight",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/evernight.png?raw=true",
+    "team": "fabled",
+    "edition": "Gabou & Gagou",
+    "ability": "Le conteur ne compte pas les votes à haute voix, mais se contente d'annoncer le total comptabilisé."
+  },
   "bootlegger"
 ]
