@@ -137,8 +137,8 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/esprit.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": "Une fois par partie, pendant la nuit, vous pouvez récupérer le rôle d’un joueur mort. Ce joueur garde son rôle, mais devient ivre. Vous gardez votre alignement, et êtes toujours perçu comme l’Esprit.",
-    "otherNightReminder": "Si l'Esprit n'a pas encore utilisé son pouvoir, il peut désigner un joueur mort. Il prend ce rôle et conserve son alignement. Mettez à jour le grimoire et informez-le de son nouveau rôle. Le joueur possédé devient ivre.",
+    "ability": "Une fois par partie, pendant la nuit, vous pouvez désigner un joueur mort et apprendre son rôle. S'il est bon, vous obtenez son pouvoir et il devient ivre. S'il est maléfique, il ne se passe rien. ",
+    "otherNightReminder": "Si l'Esprit n'a pas encore utilisé son pouvoir, il peut désigner un joueur mort. Montrez le rôle de ce joueur à l'esprit. S'il est bon, l'Esprit obtient le pouvoir.",
     "reminders": [
       "Pouvoir utilisé",
       "Ivre"
@@ -153,7 +153,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/cannonier.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": " Une fois par partie, pendant la phase de nomination, vous pouvez tuer vos deux voisins. Si aucun n’est maléfique, le Mal l’emporte. Si aucun n’est bon, le Bien l’emporte. Le jour prend immédiatement fin.",
+    "ability": " Une fois par partie, pendant la phase de nomination, vous pouvez tirer sur vos voisins. Si au moins l'un des deux est maléfique, vos deux voisins sont éxécutes. Sinon, il ne se passe rien. Le jour prend immédiatement fin.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
