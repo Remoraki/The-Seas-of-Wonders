@@ -1,7 +1,8 @@
 [
   {
     "id": "_meta",
-    "name": "The Seas of Wonder",
+    "name": "The Seas of Wonders",
+    "logo": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/main.png?raw=true",
     "author": "Gabou & Gagou",
     "firstNight": [
       "dusk",
@@ -363,8 +364,9 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/brume.png?raw=true",
     "team": "minion",
     "edition": "Gabou & Gagou",
-    "ability": "En début de partie, vous désignez un joueur bon et un joueur mauvais rendus indétectables : toute information qui devrait être révélée sur chaque joueur pourrait être erronée. Si vous mourez, le village apprend l'existence des deux joueurs embrumés, qui ne le sont plus.",
-    "firstNightReminder": "la Brume désigne un joueur bon et un joueur mauvais. Placez les marqueurs Indétectable : toute information révélée sur ces joueurs ou leur rôle peut être erronée.",
+    "ability": "Chaque nuit, vous désignez un joueur. Jusqu'au lever du jour, il peut apparaître comme n'importe quel rôle ou alignement. ",
+    "firstNightReminder": "La brume désigne un joueur, placez le marqueur indétectable ; jusqu'au prochain crépuscule, il peut apparaître comme n'importe quel rôle ou n'importe quel alignement.",
+    "otherNightReminder": "La brume désigne un joueur différent de la nuit précedente, placez le marqueur indétectable ; jusqu'au prochain crépuscule, il peut apparaître comme n'importe quel rôle ou n'importe quel alignement.",
     "reminders": [
       "Indétectable",
       "Indétectable"
