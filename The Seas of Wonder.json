@@ -364,7 +364,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/brume.png?raw=true",
     "team": "minion",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit, vous désignez un joueur. Jusqu'au crépuscule, il peut apparaître comme n'importe quel rôle ou alignement. ",
+    "ability": "Chaque nuit, vous désignez un joueur différent de la nuit précédente. Jusqu'au crépuscule, il peut apparaître comme n'importe quel rôle ou alignement. ",
     "firstNightReminder": "La brume désigne un joueur, placez le marqueur indétectable ; jusqu'au prochain crépuscule, il peut apparaître comme n'importe quel rôle ou n'importe quel alignement.",
     "otherNightReminder": "La brume désigne un joueur différent de la nuit précedente, placez le marqueur indétectable ; jusqu'au prochain crépuscule, il peut apparaître comme n'importe quel rôle ou n'importe quel alignement.",
     "reminders": [
