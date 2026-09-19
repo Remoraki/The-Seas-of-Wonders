@@ -61,7 +61,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/capitaine.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": "En début de partie, vous apprenez deux jouuers qui forment votre équipage. La première fois que vous nominez quelqu'un, votre équipage vote automatiquement.",
+    "ability": "En début de partie, vous apprenez deux joueur qui forment votre équipage. La première fois que vous nominez quelqu'un, votre équipage vote automatiquement.",
     "firstNightReminder": "Choisissez deux joueurs, et informez-en la Capitaine. Placez les marqueurs Équipage.",
     "reminders": [
       "Équipage",
