@@ -137,8 +137,8 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/esprit.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": "Une fois par partie, pendant la nuit, vous pouvez désigner un joueur mort et apprendre son rôle. S'il est bon, vous obtenez son pouvoir et il devient ivre. S'il est maléfique, il ne se passe rien. ",
-    "otherNightReminder": "Si l'Esprit n'a pas encore utilisé son pouvoir, il peut désigner un joueur mort. Montrez le rôle de ce joueur à l'esprit. S'il est bon, l'Esprit obtient le pouvoir.",
+    "ability": "Une fois par partie, pendant la nuit, vous pouvez désigner un joueur mort et apprendre son rôle. S'il est bon, vous obtenez son pouvoir et il devient ivre. S'il est maléfique, vous mourez. ",
+    "otherNightReminder": "Si l'Esprit n'a pas encore utilisé son pouvoir, il peut désigner un joueur mort. Montrez le rôle de ce joueur à l'esprit. S'il est bon, l'Esprit obtient le pouvoir, sinon l'Esprit meurt.",
     "reminders": [
       "Pouvoir utilisé",
       "Ivre"
