@@ -178,7 +178,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/capitaine.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": "Si le joueur nominé est maléfique, votre vote compte double. S'il est bon, votre vote n'est pas comptabilisé.",
+    "ability": "Si vous nominez un joueur maléfique, votre vote compte double. S'il est bon, votre vote n'est pas comptabilisé.",
     "remindersGlobal": [],
     "setup": false,
     "firstNight": 8
