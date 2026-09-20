@@ -9,20 +9,20 @@
       "minioninfo",
       "demoninfo",
       "sowbrume",
+      "sowtaverniere",
       "sowcolombe",
       "sowmessager",
       "sowexplorateur",
       "sowcartographe",
       "sowastronome",
-      "sowcapitaine",
       "sowtriton",
-      "sowtaverniere",
       "dawn"
     ],
     "otherNight": [
       "dusk",
+      "sowbrume",
+      "sowtaverniere",
       "sownecromancien",
-      "sowesprit",
       "sowclandestine",
       "sowmutine",
       "sowmeduse",
@@ -30,13 +30,11 @@
       "sowroimaudit",
       "sowmobydick",
       "sowsirene",
+      "sowesprit",
       "sowcondamne",
       "sowastronome",
       "sowchasseurdeprimes",
       "sowtriton",
-      "sowduelliste",
-      "sowtraitre",
-      "sowtaverniere",
       "dawn"
     ]
   },
@@ -54,23 +52,6 @@
     "remindersGlobal": [],
     "setup": false,
     "firstNight": 2
-  },
-  {
-    "id": "sowcapitaine",
-    "name": "La Capitaine",
-    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/capitaine.png?raw=true",
-    "team": "townsfolk",
-    "edition": "Gabou & Gagou",
-    "ability": "En début de partie, vous apprenez deux joueur qui forment votre équipage. La première fois que vous nominez quelqu'un, votre équipage vote automatiquement.",
-    "firstNightReminder": "Choisissez deux joueurs, et informez-en la Capitaine. Placez les marqueurs Équipage.",
-    "reminders": [
-      "Équipage",
-      "Équipage",
-      "Utilisé"
-    ],
-    "remindersGlobal": [],
-    "setup": false,
-    "firstNight": 8
   },
   {
     "id": "sowmessager",
@@ -153,40 +134,8 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/cannonier.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": " Une fois par partie, pendant la phase de nomination, vous pouvez tirer sur vos voisins. Si au moins l'un des deux est maléfique, vos deux voisins sont éxécutes. Sinon, il ne se passe rien. Le jour prend immédiatement fin.",
+    "ability": " Une fois par partie, pendant la phase de nomination, vous pouvez annoncer que vous tirez. Si au moins l'un des deux est un sbire, vos deux voisins sont éxécutés. Sinon, il ne se passe rien. Le jour prend immédiatement fin.",
     "reminders": [],
-    "remindersGlobal": [],
-    "setup": false,
-    "firstNight": 0,
-    "otherNight": 0
-  },
-  {
-    "id": "sowcondamne",
-    "name": "Le Condamné",
-    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/condamne.png?raw=true",
-    "team": "townsfolk",
-    "edition": "Gabou & Gagou",
-    "ability": "Si vous êtes mort éxécuté durant le jour, ou mort tué durant la nuit, vous vous réveillez et apprenez le rôle d'un autre joueur mort.",
-    "otherNightReminder": "Si le condamnée est mort éxécuté la journée, réveillez le. Il désigne un joueur mort dont vous lui apprenez le rôle.",
-    "reminders": [
-      "Tué"
-    ],
-    "remindersGlobal": [],
-    "setup": false,
-    "firstNight": 0,
-    "otherNight": 0
-  },
-  {
-    "id": "sowcorsaire",
-    "name": "La Corsaire",
-    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/corsaire.png?raw=true",
-    "team": "townsfolk",
-    "edition": "Gabou & Gagou",
-    "ability": "La première fois que vous nominez un joueur, s'il est bon, ni vous ni lui ne pouvez mourir d'éxécution aujourd'hui.",
-    "reminders": [
-      "Pouvoir utilisé",
-      "Ne meurt pas"
-    ],
     "remindersGlobal": [],
     "setup": false,
     "firstNight": 0,
@@ -198,7 +147,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/necromancien.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit*, désignez un joueur. S'il est mort, il est considéré comme vivant jusqu'au lever du jour. S'il est vivant, s'il doit mourir, vous retardez sa mort jusqu'au lever du jour.",
+    "ability": "Chaque nuit*, désignez un joueur. S'il est mort, il est considéré comme vivant jusqu'à l'aube. S'il est vivant, s'il doit mourir, vous retardez sa mort jusqu'au lever du jour.",
     "otherNightReminder": "Le Nécromancien peut désigner un joueur. Ce joueur est considéré comme vivant jusqu'au lever du jour. S'il doit mourir, retardez sa mort, s'il est mort, jouez son rôle comme s'il était vivant.",
     "reminders": [
       "Récussité"
@@ -222,6 +171,33 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNight": 3
+  },
+  {
+    "id": "sowcapitaine",
+    "name": "La Capitaine",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/capitaine.png?raw=true",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Si le joueur nominé est maléfique, votre vote compte double. S'il est bon, votre vote n'est pas comptabilisé.",
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 8
+  },
+  {
+    "id": "sowcondamne",
+    "name": "Le Condamné",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/condamne.png?raw=true",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Si vous êtes mort éxécuté durant le jour, ou mort tué durant la nuit, vous vous réveillez et apprenez le rôle d'un autre joueur mort.",
+    "otherNightReminder": "Si le condamnée est mort éxécuté la journée, réveillez le. Il désigne un joueur mort dont vous lui apprenez le rôle.",
+    "reminders": [
+      "Tué"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
   },
   {
     "id": "sowchasseurdeprimes",
@@ -252,12 +228,28 @@
     "otherNight": 0
   },
   {
+    "id": "sowcorsaire",
+    "name": "La Corsaire",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/corsaire.png?raw=true",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Lorsque vous nominez un joueur pour la première fois, s'il est bon, ni vous ni lui ne pouvez mourir d'éxécution aujourd'hui.",
+    "reminders": [
+      "Pouvoir utilisé",
+      "Ne meurt pas"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
     "id": "sowmachiniste",
     "name": "La Machiniste",
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/machiniste.png?raw=true",
     "team": "outsider",
     "edition": "Gabou & Gagou",
-    "ability": "Lorsque vous mourez, aucun vote ne comptera au prochain tour.",
+    "ability": "Il y a un villageois dont le vote n'est jamais comptabilisé.",
     "reminders": [
       "Aucun vote"
     ],
@@ -272,7 +264,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/duelliste.png?raw=true",
     "team": "outsider",
     "edition": "Gabou & Gagou",
-    "ability": "Si, pendant le jour, vous ne votez pour personne, vous mourez pendant la nuit.",
+    "ability": "Si quelqu'un est éxécuté, vous pourriez mourir à sa place.",
     "otherNightReminder": "Si le Duelliste n'a voté pour personne aujourd'hui, il meurt.",
     "reminders": [
       "A voté",
@@ -314,7 +306,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/mutine.png?raw=true",
     "team": "minion",
     "edition": "Gabou & Gagou",
-    "ability": "Une fois par partie, vous pouvez tuer le démon, vous devenez alors le démon..",
+    "ability": "Une fois par partie, vous pouvez tuer le démon, vous devenez alors un autre démon.",
     "otherNightReminder": "Si la Mutine n'a pas encore utilisé son pouvoir, elle peut choisir de tuer le démon. Si elle le fait, le démon meurt et la Mutine devient ce démon : informez-la de son nouveau rôle. ",
     "reminders": [
       "Pouvoir utilisé"
@@ -329,7 +321,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/sirene.png?raw=true",
     "team": "minion",
     "edition": "Gabou & Gagou",
-    "ability": "Si vous mourez durant la nuit, vous désignez un joueur. Il devient un sbire. Vous apparaissez comme un autre sbire.",
+    "ability": "Si vous mourez durant la nuit, vous désignez un joueur. Il devient d'alignement maléfique. Vous apparaissez comme un autre sbire.",
     "firstNightReminder": "La Sirène apprend quel sbire elle semble être. Montrez-lui ce rôle (elle apparaît comme ce sbire pour toute information révélée).",
     "otherNightReminder": "Si la Sirène est morte cette nuit, elle désigne un joueur : ce joueur devient un sbire. Informez-le de son nouvel alignement.",
     "reminders": [
@@ -346,12 +338,13 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/triton.png?raw=true",
     "team": "minion",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit, vous désignez deux joueurs. Si l'un est exécuté, l'autre aussi.",
-    "firstNightReminder": "Le Triton désigne 2 joueurs. Placez les marqueurs Lié : si l'un est exécuté aujourd'hui, l'autre aussi.",
+    "ability": "Chaque nuit, vous désignez deux joueurs. Si l'un est exécuté, l'autre aussi. Votre vote n'est jamais comptabilisé.",
+    "firstNightReminder": "Le Triton désigne 2 joueurs. Placez les marqueurs Lié : si l'un est exécuté aujourd'hui, l'autre aussi. Placez le marqueur Incapacité.",
     "otherNightReminder": "Le Triton désigne 2 joueurs. Placez les marqueurs Lié : si l'un est exécuté aujourd'hui, l'autre aussi.",
     "reminders": [
       "Lié",
-      "Lié"
+      "Lié",
+      "Incapacité"
     ],
     "remindersGlobal": [],
     "setup": false,
@@ -381,7 +374,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/medusa.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit*, vous désignez un joueur à tuer. Lorsqu'un joueur vous nomine, il devient ivre pour le reste de la partie.",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer. Si un joueur vous nomine, il est empoisonné pour le reste de la partie. Si personne ne vous nomine, un joueur est empoisonné jusqu'au crépuscule.",
     "firstNightReminder": "Montrez à Médusa les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
     "otherNightReminder": "Médusa désigne un joueur : ce joueur meurt.",
     "reminders": [
@@ -398,9 +391,9 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/kraken.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit*, vous désignez un joueur à tuer. Le vote des voisins de ce joueur ne comptera pas au prochain tour.",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer. Vous choisissez si le vote de vos voisins villageois est comptabilisé au prochain tour.",
     "firstNightReminder": "Montrez au Kraken les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
-    "otherNightReminder": "Le Kraken désigne un joueur : ce joueur meurt. Le vote de ses deux voisins ne comptera pas le jour suivant. Placez les marqueurs Incapacité.",
+    "otherNightReminder": "Le Kraken désigne un joueur : ce joueur meurt.",
     "reminders": [
       "Mort",
       "Incapacité",
@@ -416,7 +409,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/roi.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit*, vous désignez un joueur à tuer, puis, un joueur à maudire. Si ce dernier nomine pendant le jour, il est immédiatement éxécuté. Aucun joueur ne peut être maudit s'il reste 5 joueurs ou moins.",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer, puis, un joueur à maudire. Si le joueur maudit est nominé par quelqu'un d'autre que vous, il est éxécutable peu importe le nombre de voix.",
     "firstNightReminder": "Montrez au Roi Maudit les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
     "otherNightReminder": "Le Roi Maudit désigne un joueur : ce joueur meurt. Puis il désigne un autre joueur : placez le marqueur Maudit. Si ce joueur nomine aujourd'hui, il est éxécuté.",
     "reminders": [
@@ -433,9 +426,9 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/mbdick.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit*, vous désignez un joueur à tuer. S'il reste autant de Mauvais que de Bons, le Mal l'emporte.",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer. S'il reste autant de Maléfiques que de Bons, le Mal l'emporte.",
     "firstNightReminder": "Montrez à Moby Dick les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
-    "otherNightReminder": "Moby Dick désigne un joueur : ce joueur meurt. S'il reste autant de Mauvais que de bons, le Mal l'emporte au lever du jour",
+    "otherNightReminder": "Moby Dick désigne un joueur : ce joueur meurt. S'il reste autant de Maléfiques que de bons, le Mal l'emporte au lever du jour",
     "reminders": [
       "Mort",
       "Supériorité"
@@ -450,7 +443,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/evernight.png?raw=true",
     "team": "fabled",
     "edition": "Gabou & Gagou",
-    "ability": "Le conteur ne compte pas les votes à haute voix, mais se contente d'annoncer le total comptabilisé."
+    "ability": "Le conteur ne compte pas les votes à haute voix, mais se contente d'annoncer si la cible est éxécutable."
   },
   "bootlegger"
 ]
