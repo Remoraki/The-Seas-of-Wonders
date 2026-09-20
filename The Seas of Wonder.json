@@ -134,7 +134,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/cannonier.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": " Une fois par partie, pendant la phase de nomination, vous pouvez annoncer que vous tirez. Si au moins l'un des deux est un sbire, vos deux voisins sont éxécutés. Sinon, il ne se passe rien. Le jour prend immédiatement fin.",
+    "ability": " Une fois par partie, pendant la phase de nomination, vous pouvez annoncer que vous tirez sur vos deux voisins. Si au moins l'un des deux est un sbire, vos deux voisins sont éxécutés. Sinon, il ne se passe rien. Le jour prend immédiatement fin.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
