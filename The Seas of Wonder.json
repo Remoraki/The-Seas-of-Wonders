@@ -9,6 +9,7 @@
       "minioninfo",
       "demoninfo",
       "sowbrume",
+      "sowmeduse",
       "sowtaverniere",
       "sowcolombe",
       "sowmessager",
@@ -374,12 +375,12 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/medusa.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit*, vous désignez un joueur à tuer. Si un joueur vous nomine, il est empoisonné pour le reste de la partie. Si personne ne vous nomine, un joueur est empoisonné jusqu'au crépuscule.",
-    "firstNightReminder": "Montrez à Médusa les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer. Chaque nuit, si aucun joueur n'est empoisonné à cause de votre pouvoir, l'un d'eux est empoisonné jusqu'au crépuscule. Si un joueur vous nomine, il est immédiatement empoisonné pour le reste de la partie.",
+    "firstNightReminder": "Montrez à Médusa les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs). Choisissez un joueur bon, il est empoisonné jusqu'au crépuscule. ",
     "otherNightReminder": "Médusa désigne un joueur : ce joueur meurt.",
     "reminders": [
       "Mort",
-      "Ivre"
+      "Poison"
     ],
     "remindersGlobal": [],
     "setup": false,
@@ -409,9 +410,9 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/roi.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit*, vous désignez un joueur à tuer, puis, un joueur à maudire. Si le joueur maudit est nominé par quelqu'un d'autre que vous, il est éxécutable peu importe le nombre de voix.",
+    "ability": "Chaque nuit*, vous désignez un joueur à tuer, puis, un joueur à maudire. Si le joueur maudit meurt d'éxécution au prochain vote, il devient d'alignement maléfique. Si un joueur a déjà été converti, vous ne pouvez plus maudire.",
     "firstNightReminder": "Montrez au Roi Maudit les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs).",
-    "otherNightReminder": "Le Roi Maudit désigne un joueur : ce joueur meurt. Puis il désigne un autre joueur : placez le marqueur Maudit. Si ce joueur nomine aujourd'hui, il est éxécuté.",
+    "otherNightReminder": "Le Roi Maudit désigne un joueur : ce joueur meurt. Puis il désigne un autre joueur : placez le marqueur Maudit. Si ce joueur meurt d'éxécution au prochain vote, il devient maléfique.",
     "reminders": [
       "Mort",
       "Surveillé"
