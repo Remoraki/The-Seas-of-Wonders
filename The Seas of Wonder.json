@@ -35,6 +35,7 @@
       "sowcondamne",
       "sowastronome",
       "sowchasseurdeprimes",
+      "sowfantome",
       "sowtriton",
       "dawn"
     ]
@@ -119,7 +120,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/esprit.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": "Une fois par partie, pendant la nuit, vous pouvez désigner un joueur mort. S'il est maléfique, vous devenez ivre. Vous apprenez son rôle, puis obtenez son pouvoir.",
+    "ability": "Une fois par partie, pendant la nuit*, vous pouvez désigner un joueur mort. S'il est maléfique, vous devenez ivre. Vous apprenez son rôle, puis obtenez son pouvoir.",
     "otherNightReminder": "Si l'Esprit n'a pas encore utilisé son pouvoir, il peut désigner un joueur mort. Montrez le rôle de ce joueur à l'esprit. S'il est bon, l'Esprit obtient le pouvoir, sinon l'Esprit meurt.",
     "reminders": [
       "Pouvoir utilisé",
@@ -174,6 +175,21 @@
     "otherNight": 3
   },
   {
+    "id": "sowchasseurdeprimes",
+    "name": "Le Chasseur de primes",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/chasseur.png?raw=true",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Chaque nuit*, si vous avez participé à l'éxécution d'un joueur durant la journée, apprenez un rôle parmi les votants.",
+    "otherNightReminder": "Si le Chasseur de primes a voté lors d'une exécution aujourd'hui, montrez-lui le rôle de l'un des joueurs ayant voté.",
+    "reminders": [
+      "A voté"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "otherNight": 9
+  },
+  {
     "id": "sowcapitaine",
     "name": "La Capitaine",
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/capitaine.png?raw=true",
@@ -190,8 +206,8 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/condamne.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": "Si vous êtes mort durant la nuit, vous choisissez un joueur",
-    "otherNightReminder": "Si le condamnée est mort éxécuté la journée, réveillez le. Il désigne un joueur mort dont vous lui apprenez le rôle.",
+    "ability": "Si c'est la première nuit où vous êtes mort, vous apprenez le rôle d'un joueur mort de votre choix.",
+    "otherNightReminder": "Si le condamnée est mort pour la première fois, réveillez-le. Il désigne un joueur mort dont vous lui apprenez le rôle.",
     "reminders": [
       "Tué"
     ],
@@ -199,21 +215,6 @@
     "setup": false,
     "firstNight": 0,
     "otherNight": 0
-  },
-  {
-    "id": "sowchasseurdeprimes",
-    "name": "Le Chasseur de primes",
-    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/chasseur.png?raw=true",
-    "team": "townsfolk",
-    "edition": "Gabou & Gagou",
-    "ability": "Si vous avez participé à l'éxécution d'un joueur durant la journée, vous vous réveillez et apprenez un rôle parmi les votants.",
-    "otherNightReminder": "Si le Chasseur de primes a voté lors d'une exécution aujourd'hui, montrez-lui le rôle de l'un des joueurs ayant voté.",
-    "reminders": [
-      "A voté"
-    ],
-    "remindersGlobal": [],
-    "setup": false,
-    "otherNight": 9
   },
   {
     "id": "sowfantome",
@@ -283,7 +284,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/taverniere.png?raw=true",
     "team": "outsider",
     "edition": "Gabou & Gagou",
-    "ability": "Tant que vous êtes en vie, un villageois de votre moitié de jeu est ivre. Le joueur ivre peut changer chaque nuit.",
+    "ability": "Chaque nuit, un villageois de votre moitié de jeu devient ivre jusqu'au crépuscule.",
     "firstNightReminder": "Choisissez l'un villageois dans la moitié de jeu de la Tavernière : il est ivre jusqu'au crépuscule. Placez le marqueur Ivre.",
     "otherNightReminder": "Enlevez le marqueur ivre placé précédemment. Choisissez l'un villageois dans la moitié de jeu de la Tavernière : il est ivre jusqu'au crépuscule. Placez le marqueur Ivre.",
     "reminders": [
@@ -294,11 +295,11 @@
   },
   {
     "id": "sowgeolier",
-    "name": "Le Mousse",
-    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/mousse.png?raw=true",
+    "name": "Le Geôlier",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/geolier.png?raw=true",
     "team": "outsider",
     "edition": "Gabou & Gagou",
-    "ability": "Le vote des joueurs ivre ou empoisonnés pourrait ne pas compter.",
+    "ability": "Le vote des joueurs ivres ou empoisonnés pourrait ne pas compter.",
     "remindersGlobal": [],
     "setup": false
   },
