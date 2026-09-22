@@ -377,7 +377,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/medusa.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
-    "ability": "Si un villageois vous nomine, il est immédiatement empoisonné pour le reste de la partie. Chaque nuit*, vous désignez un joueur à tuer ; si aucun joueur n'est empoisonné à cause de votre pouvoir, un villageois est empoisonné jusqu'au crépuscule.",
+    "ability": "Si un villageois vous nomine, il est immédiatement empoisonné pour le reste de la partie. Chaque nuit*, vous désignez un joueur à tuer. Chaque nuit, si aucun joueur n'est empoisonné à cause de votre pouvoir, un villageois est empoisonné jusqu'au crépuscule.",
     "firstNightReminder": "Montrez à Médusa les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs). Choisissez un joueur bon, il est empoisonné jusqu'au crépuscule. ",
     "otherNightReminder": "Médusa désigne un joueur : ce joueur meurt.",
     "reminders": [
