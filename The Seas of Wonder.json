@@ -190,6 +190,20 @@
     "otherNight": 9
   },
   {
+    "id": "sowfantome",
+    "name": "Le Fantôme",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/fantome.png?raw=true",
+    "team": "townsfolk",
+    "edition": "Gabou & Gagou",
+    "ability": "Chaque nuit, vous apprenez combien de joueurs morts sont maléfiques.",
+    "otherNightReminder": "Si le fantôme est mort, montrez lui le nombre de joueurs morts maléfiques.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
     "id": "sowcapitaine",
     "name": "La Capitaine",
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/capitaine.png?raw=true",
@@ -211,20 +225,6 @@
     "reminders": [
       "Tué"
     ],
-    "remindersGlobal": [],
-    "setup": false,
-    "firstNight": 0,
-    "otherNight": 0
-  },
-  {
-    "id": "sowfantome",
-    "name": "Le Fantôme",
-    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/fantome.png?raw=true",
-    "team": "townsfolk",
-    "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit, si vous êtes mort, vous apprenez combien de joueurs morts sont maléfiques.",
-    "otherNightReminder": "Si le fantôme est mort, montrez lui le nombre de joueurs morts maléfiques.",
-    "reminders": [],
     "remindersGlobal": [],
     "setup": false,
     "firstNight": 0,
