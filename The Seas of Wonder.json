@@ -448,5 +448,13 @@
     "edition": "Gabou & Gagou",
     "ability": "Le conteur ne compte pas les votes à haute voix, mais se contente d'annoncer si la cible est éxécutable."
   },
+  {
+    "id": "sowsurvival",
+    "name": "La Loi du Plus Fort",
+    "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/jroger.png?raw=true",
+    "team": "fabled",
+    "edition": "Gabou & Gagou",
+    "ability": "Plusieurs joueurs peuvent être éxécutables simultanément. En cas d'égalité, tous les joueurs concernés sont éxécutables."
+  },
   "bootlegger"
 ]
