@@ -103,7 +103,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/astronome.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": "Une fois par partie, vous pouvez désigner 2 joueurs. Vous savez si ces deux joueurs ont le même alignement. Vous ne pouvez pas vous désigner vous-même.",
+    "ability": "Une fois par partie, vous pouvez désigner 2 joueurs. Chaque nuit, vous apprenez s'ils ont le même alignement.",
     "firstNightReminder": "Si l'Astronome désigne 2 joueurs (autres que lui-même), indiquez-lui par oui ou non s'ils ont le même alignement. Placez le marqueur Pouvoir utilisé.",
     "otherNightReminder": "Si l'Astronome n'a pas encore utilisé son pouvoir et désigne 2 joueurs (autres que lui-même), indiquez-lui par oui ou non s'ils ont le même alignement. Placez le marqueur Pouvoir utilisé.",
     "reminders": [
@@ -222,8 +222,8 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/fantome.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": "Si vous êtes morts d'éxécution dans la journée, vous apprenez l'alignement d'un joueur de votre choix.",
-    "otherNightReminder": "Si le fantôme est mort éxécuté dans la journée, il désigne un joueur dont vous lui apprenez l'alignement.",
+    "ability": "Chaque nuit, si vous êtes mort, vous apprenez combien de joueurs morts sont maléfiques.",
+    "otherNightReminder": "Si le fantôme est mort, montrez lui le nombre de joueurs morts maléfiques.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
@@ -377,7 +377,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/medusa.png?raw=true",
     "team": "demon",
     "edition": "Gabou & Gagou",
-    "ability": "Chaque nuit*, vous désignez un joueur à tuer. Chaque nuit, si aucun joueur n'est empoisonné à cause de votre pouvoir, un villageois est empoisonné jusqu'au crépuscule. Si un villageois vous nomine, il est immédiatement empoisonné pour le reste de la partie.",
+    "ability": "Si un villageois vous nomine, il est immédiatement empoisonné pour le reste de la partie. Chaque nuit*, vous désignez un joueur à tuer ; si aucun joueur n'est empoisonné à cause de votre pouvoir, un villageois est empoisonné jusqu'au crépuscule.",
     "firstNightReminder": "Montrez à Médusa les sbires en jeu, puis 3 rôles bons qui ne sont pas en jeu (bluffs). Choisissez un joueur bon, il est empoisonné jusqu'au crépuscule. ",
     "otherNightReminder": "Médusa désigne un joueur : ce joueur meurt.",
     "reminders": [
