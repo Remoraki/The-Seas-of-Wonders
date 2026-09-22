@@ -136,7 +136,7 @@
     "image": "https://github.com/Remoraki/The-Seas-of-Wonders/blob/main/Images/cannonier.png?raw=true",
     "team": "townsfolk",
     "edition": "Gabou & Gagou",
-    "ability": " Une fois par partie, vous pouvez vous annoncer publiquement. Si il y a le démon parmi vos voisins, cette nuit, il ne se réveille pas et vous mourez. Sinon, s'il y a un sbire parmi vos voisins, les deux sont éxécutables avec le maximum de voix.",
+    "ability": " Une fois par partie, vous pouvez vous annoncer publiquement. S'il y a le démon parmi vos voisins, cette nuit, il ne se réveille pas et vous mourez. Sinon, s'il y a un joueur maléfique parmi vos voisins en vie, les deux sont éxécutables avec le maximum de voix.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
